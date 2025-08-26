@@ -12,12 +12,11 @@ const Home = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="hero-section">
+      <section 
+        className="hero-section"
+        style={{ backgroundImage: `url(${heroChef})` }}
+      >
         <div className="hero-overlay" />
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroChef})` }}
-        />
         <div className="relative container mx-auto px-6 text-center text-white">
           <h1 className="text-hero animate-fade-up mb-6">
             Culinary Excellence
