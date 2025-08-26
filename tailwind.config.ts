@@ -18,12 +18,24 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Playfair Display', 'serif'],
+				body: ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'gold-light': 'hsl(var(--gold-light))',
+				'gold-dark': 'hsl(var(--gold-dark))',
+				salmon: 'hsl(var(--salmon))',
+				'salmon-light': 'hsl(var(--salmon-light))',
+				olive: 'hsl(var(--olive))',
+				'olive-light': 'hsl(var(--olive-light))',
+				'rusty-red': 'hsl(var(--rusty-red))',
+				'rusty-red-dark': 'hsl(var(--rusty-red-dark))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +74,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-warm': 'var(--gradient-warm)',
+				'gradient-accent': 'var(--gradient-accent)',
+			},
+			boxShadow: {
+				'warm': 'var(--shadow-warm)',
+				'elegant': 'var(--shadow-elegant)',
+				'soft': 'var(--shadow-soft)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -2,39 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Luxurious Private Chef Design System - Autumn Inspired Palette
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Warm Autumn Base Colors */
+    --background: 32 15% 97%;
+    --foreground: 25 20% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 35 25% 95%;
+    --card-foreground: 25 20% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 35 25% 95%;
+    --popover-foreground: 25 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Rich Gold Primary */
+    --primary: 43 85% 45%;
+    --primary-foreground: 35 25% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm Salmon Secondary */
+    --secondary: 15 75% 68%;
+    --secondary-foreground: 25 20% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Olive Green Muted */
+    --muted: 60 25% 85%;
+    --muted-foreground: 25 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Rusty Red Accent */
+    --accent: 25 65% 55%;
+    --accent-foreground: 35 25% 95%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 35 25% 95%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 20% 88%;
+    --input: 35 20% 90%;
+    --ring: 43 85% 45%;
+
+    /* Custom Chef Theme Colors */
+    --gold-light: 48 90% 75%;
+    --gold-dark: 38 80% 35%;
+    --salmon: 15 75% 68%;
+    --salmon-light: 15 65% 78%;
+    --olive: 60 40% 45%;
+    --olive-light: 60 30% 65%;
+    --rusty-red: 25 65% 55%;
+    --rusty-red-dark: 20 70% 40%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--gold-light)), hsl(var(--salmon)));
+    --gradient-warm: linear-gradient(180deg, hsl(var(--background)), hsl(var(--gold-light) / 0.1));
+    --gradient-accent: linear-gradient(45deg, hsl(var(--rusty-red)), hsl(var(--accent)));
+
+    /* Shadows */
+    --shadow-warm: 0 10px 40px -10px hsl(var(--gold-dark) / 0.25);
+    --shadow-elegant: 0 20px 60px -15px hsl(var(--rusty-red) / 0.2);
+    --shadow-soft: 0 5px 20px -5px hsl(var(--olive) / 0.15);
 
     --radius: 0.5rem;
 
@@ -94,6 +119,16 @@ All colors MUST be HSL.
   }
 }
 
+    /* Typography */
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Animations & Transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -101,5 +136,86 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  /* Hero Section Styles */
+  .hero-section {
+    @apply relative min-h-screen flex items-center justify-center overflow-hidden;
+    background: var(--gradient-hero);
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40;
+  }
+
+  /* Animation Classes */
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .animate-fade-up-delay {
+    animation: fadeUp 0.8s ease-out 0.3s forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .animate-scale-hover {
+    transition: var(--transition-smooth);
+  }
+
+  .animate-scale-hover:hover {
+    transform: scale(1.05);
+  }
+
+  /* Image Overlays */
+  .image-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 transition-opacity duration-300;
+  }
+
+  .image-overlay.active {
+    @apply opacity-100;
+  }
+
+  /* Elegant Cards */
+  .chef-card {
+    @apply bg-card/80 backdrop-blur-sm border border-border/50 rounded-lg p-8;
+    box-shadow: var(--shadow-elegant);
+    transition: var(--transition-smooth);
+  }
+
+  .chef-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-warm);
+  }
+
+  /* Typography Variants */
+  .text-hero {
+    @apply text-5xl md:text-7xl font-bold leading-tight;
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--gold-light)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-elegant {
+    @apply text-2xl md:text-3xl text-muted-foreground leading-relaxed;
+    font-family: var(--font-display);
+  }
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
