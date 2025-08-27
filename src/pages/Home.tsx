@@ -18,13 +18,13 @@ const Home = () => {
       >
         <div className="hero-overlay" />
         <div className="relative container mx-auto px-6 text-center text-white">
-          <h1 className="text-gold animate-fade-up mb-6 text-5xl md:text-7xl font-display font-bold">
+          <h1 className="text-olive-light animate-fade-up mb-6 text-5xl md:text-7xl font-display font-bold">
             Personal Chef Service
           </h1>
-          <p className="text-rusty-red animate-fade-up-delay mb-4 max-w-3xl mx-auto text-xl md:text-2xl font-medium">
+          <p className="text-olive-light animate-fade-up-delay mb-4 max-w-3xl mx-auto text-xl md:text-2xl font-medium">
             Tucson's Answer for Made To Order Eclectic Cuisine
           </p>
-          <p className="text-gold/90 animate-fade-up-delay mb-8 max-w-3xl mx-auto text-lg">
+          <p className="text-white/80 animate-fade-up-delay mb-8 max-w-3xl mx-auto text-lg">
             Custom meal preparation service designed around your tastes and health goals, 
             with fresh ingredients and ready-to-enjoy meals delivered to your refrigerator.
           </p>
