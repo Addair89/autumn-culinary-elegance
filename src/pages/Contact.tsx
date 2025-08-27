@@ -58,7 +58,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                      <p className="text-muted-foreground">chef@alexanderrose.com</p>
+                      <p className="text-muted-foreground">jane@seejanecook.com</p>
                       <p className="text-sm text-muted-foreground mt-1">
                         Response within 24 hours
                       </p>
@@ -84,21 +84,21 @@ const Contact = () => {
                   <h3 className="font-semibold text-foreground mb-4">Follow the Journey</h3>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://instagram.com/chefalexanderrose" 
+                      href="https://instagram.com/seejanecook" 
                       className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors duration-300"
                       aria-label="Follow on Instagram"
                     >
                       <Instagram className="w-6 h-6 text-primary" />
                     </a>
                     <a 
-                      href="https://facebook.com/chefalexanderrose" 
+                      href="https://facebook.com/seejanecook" 
                       className="w-12 h-12 bg-salmon/10 rounded-full flex items-center justify-center hover:bg-salmon/20 transition-colors duration-300"
                       aria-label="Follow on Facebook"
                     >
                       <Facebook className="w-6 h-6 text-salmon" />
                     </a>
                     <a 
-                      href="https://twitter.com/chefalexanderrose" 
+                      href="https://twitter.com/seejanecook" 
                       className="w-12 h-12 bg-olive/10 rounded-full flex items-center justify-center hover:bg-olive/20 transition-colors duration-300"
                       aria-label="Follow on Twitter"
                     >
@@ -204,7 +204,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               className="bg-white text-primary hover:bg-white/90 px-8 py-3 text-lg font-semibold rounded-full shadow-warm"
-              onClick={() => window.location.href = 'mailto:chef@alexanderrose.com'}
+              onClick={() => window.location.href = 'mailto:jane@seejanecook.com'}
             >
               Send Email
             </Button>

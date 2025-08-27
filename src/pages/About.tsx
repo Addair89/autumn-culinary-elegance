@@ -7,37 +7,37 @@ import diningExperience from "@/assets/dining-experience.jpg";
 const About = () => {
   const testimonials = [
     {
-      quote: "Chef Alexander's attention to detail is unmatched. The seasonal menu he created for our corporate retreat was both innovative and comforting. Our guests are still talking about the butternut squash soup with truffle oil.",
+      quote: "Jane's attention to detail is unmatched. The seasonal menu she created for our corporate retreat was both innovative and comforting. Our guests are still talking about the butternut squash soup with truffle oil.",
       author: "Jessica Chen",
       occasion: "Corporate Retreat Dinner",
       image: signatureDish
     },
     {
-      quote: "We hired Chef Alexander for our daughter's wedding reception, and he exceeded every expectation. The autumn-inspired menu was perfectly executed, and the presentation was restaurant-quality. Absolutely phenomenal.",
+      quote: "We hired Jane for our daughter's wedding reception, and she exceeded every expectation. The autumn-inspired menu was perfectly executed, and the presentation was restaurant-quality. Absolutely phenomenal.",
       author: "Robert & Maria Gonzalez",
       occasion: "Wedding Reception",
       image: diningExperience
     },
     {
-      quote: "As someone who has dined at Michelin-starred restaurants worldwide, I can confidently say that Chef Alexander's skill rivals the best. His farm-to-table approach and seasonal creativity are truly exceptional.",
+      quote: "As someone who has dined at Michelin-starred restaurants worldwide, I can confidently say that Jane's skill rivals the best. Her farm-to-table approach and seasonal creativity are truly exceptional.",
       author: "Dr. Amanda Foster",
       occasion: "Private Birthday Celebration",
       image: chefPortrait
     },
     {
-      quote: "The cooking class Chef Alexander provided for our anniversary was magical. Not only did we learn incredible techniques, but we also enjoyed the most romantic dinner of our lives. A perfect blend of education and elegance.",
+      quote: "The cooking class Jane provided for our anniversary was magical. Not only did we learn incredible techniques, but we also enjoyed the most romantic dinner of our lives. A perfect blend of education and elegance.",
       author: "Thomas & Claire Mitchell",
       occasion: "Private Cooking Class & Dinner",
       image: signatureDish
     },
     {
-      quote: "Chef Alexander catered our book club's harvest dinner, and it was absolutely divine. Each course paired beautifully with our wine selection, and the storytelling behind each dish made the evening even more special.",
+      quote: "Jane catered our book club's harvest dinner, and it was absolutely divine. Each course paired beautifully with our wine selection, and the storytelling behind each dish made the evening even more special.",
       author: "The Literary Ladies Book Club",
       occasion: "Seasonal Harvest Dinner",
       image: diningExperience
     },
     {
-      quote: "Working with Chef Alexander for our holiday party was seamless from start to finish. His professional demeanor, exceptional culinary skills, and ability to accommodate dietary restrictions made our event stress-free and delicious.",
+      quote: "Working with Jane for our holiday party was seamless from start to finish. Her professional demeanor, exceptional culinary skills, and ability to accommodate dietary restrictions made our event stress-free and delicious.",
       author: "Mark Sullivan",
       occasion: "Holiday Corporate Party",
       image: chefPortrait
@@ -54,10 +54,10 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
-                Meet Chef Alexander Rosé
+                Meet Jane
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                With over 15 years of culinary excellence and CCCP accreditation, Chef Alexander brings 
+                With over 15 years of culinary excellence and CCCP accreditation, Jane brings 
                 world-class expertise to your private dining experiences.
               </p>
               <div className="bg-primary/10 border-l-4 border-primary p-4 rounded-r-lg">
@@ -70,7 +70,7 @@ const About = () => {
             <div className="relative">
               <img 
                 src={chefPortrait} 
-                alt="Chef Alexander Rosé professional portrait"
+                alt="Jane professional portrait"
                 className="w-full h-96 object-cover rounded-lg shadow-elegant"
               />
               <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-lg shadow-soft border">

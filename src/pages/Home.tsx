@@ -121,7 +121,7 @@ const Home = () => {
           <Card className="max-w-4xl mx-auto p-12 shadow-elegant bg-gradient-to-br from-salmon-light/10 to-gold-light/10 border-none">
             <blockquote className="text-center">
               <p className="font-display text-2xl md:text-3xl italic text-foreground mb-6 leading-relaxed">
-                "Chef Alexander transformed our anniversary dinner into an extraordinary culinary journey. 
+                "Jane transformed our anniversary dinner into an extraordinary culinary journey. 
                 Every course was a masterpiece that perfectly captured the essence of autumn. 
                 Truly an unforgettable experience."
               </p>
@@ -149,7 +149,7 @@ const Home = () => {
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 px-8 py-4 text-lg font-semibold rounded-full shadow-warm"
             >
-              <Link to="/about">Learn More About Chef Alexander</Link>
+              <Link to="/about">Learn More About Jane</Link>
             </Button>
             <Button 
               asChild 
