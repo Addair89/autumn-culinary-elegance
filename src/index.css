@@ -167,19 +167,6 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  /* Hero Section Styles */
-  .hero-section {
-    @apply relative min-h-screen flex items-center justify-center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .hero-overlay {
-    @apply absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/90;
-  }
-
   /* Animation Classes */
   .animate-fade-up {
     animation: fadeUp 0.8s ease-out forwards;

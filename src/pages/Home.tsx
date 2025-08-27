@@ -14,12 +14,25 @@ const Home = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section
-        className="hero-section"
-        style={{ backgroundImage: `url(${heroChef})` }}
-      >
-        <div className="hero-overlay" />
-        <div className="relative container mx-auto px-6 text-center text-white">
+      <section className="relative w-full min-h-screen flex items-center justify-center">
+        {/* Mobile image fallback */}
+        <img
+          src={heroChef}
+          alt="Hero Chef"
+          className="absolute inset-0 w-full h-full object-cover md:hidden"
+        />
+
+        {/* Desktop parallax background */}
+        <div
+          className="hidden md:block absolute inset-0 bg-cover bg-center bg-fixed"
+          style={{ backgroundImage: `url(${heroChef})` }}
+        />
+
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/90" />
+
+        {/* Content */}
+        <div className="relative container mx-auto px-6 text-center text-white z-10">
           <h1 className="text-olive-light animate-fade-up mb-6 text-5xl md:text-7xl font-display font-bold">
             Personal Chef Service
           </h1>
