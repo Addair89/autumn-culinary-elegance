@@ -67,7 +67,7 @@ const About = () => {
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   Certified by the Culinary Certification Council of
-                  Professionals with specialization in private dining
+                  Professionals with specialization in private dining.
                 </p>
               </Card>
 
@@ -76,21 +76,18 @@ const About = () => {
                   <svg
                     className="w-8 h-8 text-salmon"
                     fill="currentColor"
-                    viewBox="0 0 20 20"
+                    viewBox="0 0 24 24"
                   >
-                    <path
-                      fillRule="evenodd"
-                      d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-                      clipRule="evenodd"
-                    />
+                    <path d="M12 2a5 5 0 00-5 5c0 1.4.58 2.67 1.52 3.58A6.99 6.99 0 006 17v3a1 1 0 001 1h10a1 1 0 001-1v-3a6.99 6.99 0 00-2.52-6.42A4.978 4.978 0 0017 7a5 5 0 00-5-5z" />
                   </svg>
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">
-                  15+ Years Experience
+                  25+ Years of Culinary Expertise
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Extensive experience in fine dining establishments across
-                  Europe and North America
+                  With over 25 years of professional experience, Chef Jane
+                  brings world-class training and creativity to every plate,
+                  ensuring an unforgettable dining experience.
                 </p>
               </Card>
 
@@ -99,17 +96,19 @@ const About = () => {
                   <svg
                     className="w-8 h-8 text-olive"
                     fill="currentColor"
-                    viewBox="0 0 20 20"
+                    viewBox="0 0 24 24"
                   >
-                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.75 2.524z" />
+                    <path d="M7 2a1 1 0 011 1v6a2 2 0 01-2 2v10a1 1 0 11-2 0V11a2 2 0 01-2-2V3a1 1 0 112 0v6h1V3a1 1 0 011-1zm10 0a2 2 0 012 2v6a4 4 0 01-3 3.87V21a1 1 0 11-2 0v-7.13A4 4 0 0115 10V4a2 2 0 012-2z" />
                   </svg>
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">
-                  Culinary Institute Graduate
+                  Personalized Fine Dining
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Graduate of Le Cordon Bleu with advanced certification in
-                  classical and modern techniques
+                  Every dish is crafted with high-quality, locally sourced
+                  ingredients and presented with care. Chef Jane combines
+                  refined flavors with personalized service, creating a dining
+                  experience that feels as special as it tastes.
                 </p>
               </Card>
             </div>
