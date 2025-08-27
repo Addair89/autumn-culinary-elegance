@@ -21,7 +21,7 @@ const Home = () => {
           <h1 className="text-hero animate-fade-up mb-6">
             Personal Chef Service
           </h1>
-          <p className="text-elegant animate-fade-up-delay mb-4 max-w-3xl mx-auto">
+          <p className="text-salmon animate-fade-up-delay mb-4 max-w-3xl mx-auto">
             Tucson's Answer for Made To Order Eclectic Cuisine
           </p>
           <p className="text-elegant animate-fade-up-delay mb-8 max-w-3xl mx-auto">
