@@ -42,6 +42,7 @@ All colors MUST be HSL.
     --ring: 43 85% 45%;
 
     /* Custom Chef Theme Colors */
+    --gold: 43 85% 55%;
     --gold-light: 48 90% 75%;
     --gold-dark: 38 80% 35%;
     --salmon: 15 75% 68%;
