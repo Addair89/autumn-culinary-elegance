@@ -119,7 +119,7 @@ const Home = () => {
       </section>
 
       {/* Dietary Accommodations Scrolling Strip */}
-      <section className="py-12 bg-gradient-to-r from-salmon-light/20 to-gold-light/20 overflow-hidden">
+      <section className="py-12 bg-gradient-subtle overflow-hidden">
         <div className="container mx-auto px-6 mb-8">
           <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
             Dietary Accommodations
