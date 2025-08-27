@@ -191,10 +191,17 @@ All colors MUST be HSL.
   /* Elegant Cards */
   .chef-card {
     @apply backdrop-blur-sm border border-border/50 rounded-lg p-8;
-    background-color: hsl(var(--olive-light) / 0.3);
     color: hsl(var(--foreground) / 0.9);
     box-shadow: var(--shadow-elegant);
     transition: var(--transition-smooth);
+  }
+
+  .chef-card-salmon {
+    background-color: hsl(var(--salmon-light) / 0.5);
+  }
+
+  .chef-card-olive {
+    background-color: hsl(var(--olive-light) / 0.3);
   }
 
   .chef-card:hover {

@@ -53,7 +53,7 @@ const Home = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="chef-card">
+            <div className="chef-card chef-card-salmon">
               <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Personalized Meal Preparation</h3>
               <p className="mb-6 leading-relaxed" style={{ color: 'hsl(var(--foreground) / 0.9)' }}>
                 Menus tailored to your own palate and designed to support your health goals. 
@@ -93,7 +93,7 @@ const Home = () => {
               />
               <div className="image-overlay group-hover:active rounded-lg" />
             </div>
-            <div className="chef-card order-1 md:order-2">
+            <div className="chef-card chef-card-olive order-1 md:order-2">
               <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Ready When You Are</h3>
               <p className="mb-6 leading-relaxed" style={{ color: 'hsl(var(--foreground) / 0.9)' }}>
                 Exactly what you want to eat when you're tired - meals that are fully prepared, packaged, 
