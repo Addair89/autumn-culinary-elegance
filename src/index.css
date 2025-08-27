@@ -217,6 +217,43 @@ All colors MUST be HSL.
   }
 }
 
+  /* Dietary Accommodations Scrolling Strip */
+  .dietary-scroll-container {
+    @apply w-full overflow-hidden;
+  }
+
+  .dietary-scroll-strip {
+    @apply flex gap-6 whitespace-nowrap;
+    animation: scroll-horizontal 30s linear infinite;
+    width: calc(200% + 1.5rem);
+  }
+
+  .dietary-item {
+    @apply px-6 py-3 rounded-full text-sm font-semibold flex-shrink-0;
+    background: linear-gradient(135deg, hsl(var(--olive) / 0.1), hsl(var(--salmon) / 0.1));
+    color: hsl(var(--foreground) / 0.8);
+    border: 1px solid hsl(var(--olive) / 0.2);
+    backdrop-filter: blur(10px);
+    transition: var(--transition-smooth);
+  }
+
+  .dietary-item:hover {
+    background: linear-gradient(135deg, hsl(var(--olive) / 0.2), hsl(var(--salmon) / 0.2));
+    color: hsl(var(--foreground));
+    border-color: hsl(var(--olive) / 0.3);
+    transform: scale(1.05);
+  }
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 @keyframes fadeUp {
   to {
     opacity: 1;

@@ -118,6 +118,53 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Dietary Accommodations Scrolling Strip */}
+      <section className="py-12 bg-gradient-to-r from-salmon-light/20 to-gold-light/20 overflow-hidden">
+        <div className="container mx-auto px-6 mb-8">
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
+            Dietary Accommodations
+          </h2>
+          <p className="text-center text-muted-foreground text-lg">
+            Expertly crafted meals for your specific dietary needs
+          </p>
+        </div>
+        <div className="dietary-scroll-container">
+          <div className="dietary-scroll-strip">
+            <div className="dietary-item">Organics</div>
+            <div className="dietary-item">WW</div>
+            <div className="dietary-item">Liver Flush</div>
+            <div className="dietary-item">Diabetic</div>
+            <div className="dietary-item">Dairy Free</div>
+            <div className="dietary-item">Gluten Free</div>
+            <div className="dietary-item">Kosher</div>
+            <div className="dietary-item">Vegan</div>
+            <div className="dietary-item">Raw Foods</div>
+            <div className="dietary-item">Yeast Free</div>
+            <div className="dietary-item">Atkins</div>
+            <div className="dietary-item">South Beach</div>
+            <div className="dietary-item">Heart Healthy</div>
+            <div className="dietary-item">Food Allergies</div>
+            <div className="dietary-item">Low Fat</div>
+            {/* Duplicate items for seamless loop */}
+            <div className="dietary-item">Organics</div>
+            <div className="dietary-item">WW</div>
+            <div className="dietary-item">Liver Flush</div>
+            <div className="dietary-item">Diabetic</div>
+            <div className="dietary-item">Dairy Free</div>
+            <div className="dietary-item">Gluten Free</div>
+            <div className="dietary-item">Kosher</div>
+            <div className="dietary-item">Vegan</div>
+            <div className="dietary-item">Raw Foods</div>
+            <div className="dietary-item">Yeast Free</div>
+            <div className="dietary-item">Atkins</div>
+            <div className="dietary-item">South Beach</div>
+            <div className="dietary-item">Heart Healthy</div>
+            <div className="dietary-item">Food Allergies</div>
+            <div className="dietary-item">Low Fat</div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonial Section */}
       <section className="py-24 bg-card">
         <div className="container mx-auto px-6">
