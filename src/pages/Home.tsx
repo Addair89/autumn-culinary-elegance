@@ -55,11 +55,11 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="chef-card">
               <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Personalized Meal Preparation</h3>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
+              <p className="mb-6 leading-relaxed" style={{ color: 'hsl(var(--foreground) / 0.9)' }}>
                 Menus tailored to your own palate and designed to support your health goals. 
                 Freedom from grocery shopping - I choose only the best, freshest ingredients for your meals.
               </p>
-              <ul className="space-y-2 text-muted-foreground">
+              <ul className="space-y-2" style={{ color: 'hsl(var(--foreground) / 0.9)' }}>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                   Menus tailored to your palate and health goals
@@ -95,11 +95,11 @@ const Home = () => {
             </div>
             <div className="chef-card order-1 md:order-2">
               <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Ready When You Are</h3>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
+              <p className="mb-6 leading-relaxed" style={{ color: 'hsl(var(--foreground) / 0.9)' }}>
                 Exactly what you want to eat when you're tired - meals that are fully prepared, packaged, 
                 and stored in your refrigerator so they're ready when you are.
               </p>
-              <ul className="space-y-2 text-muted-foreground">
+              <ul className="space-y-2" style={{ color: 'hsl(var(--foreground) / 0.9)' }}>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
                   Meals stored ready in your refrigerator
