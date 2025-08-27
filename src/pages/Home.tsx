@@ -19,11 +19,14 @@ const Home = () => {
         <div className="hero-overlay" />
         <div className="relative container mx-auto px-6 text-center text-white">
           <h1 className="text-hero animate-fade-up mb-6">
-            Culinary Excellence
+            Personal Chef Service
           </h1>
+          <p className="text-elegant animate-fade-up-delay mb-4 max-w-3xl mx-auto">
+            Tucson's Answer for Made To Order Eclectic Cuisine
+          </p>
           <p className="text-elegant animate-fade-up-delay mb-8 max-w-3xl mx-auto">
-            CCCP Accredited Private Chef specializing in intimate dining experiences, 
-            exclusive events, and bespoke seasonal menus crafted with passion and precision.
+            Custom meal preparation service designed around your tastes and health goals, 
+            with fresh ingredients and ready-to-enjoy meals delivered to your refrigerator.
           </p>
           <div className="animate-fade-up-delay">
             <Button 
@@ -31,7 +34,7 @@ const Home = () => {
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold rounded-full shadow-warm"
             >
-              <Link to="/contact">Reserve Your Experience</Link>
+              <Link to="/contact">Start Your Meal Plan</Link>
             </Button>
           </div>
         </div>
@@ -42,32 +45,32 @@ const Home = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Signature Experiences
+              What You Get
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              From intimate dinner parties to grand celebrations, every dish tells a story of seasonal ingredients and culinary artistry.
+              Personalized meal preparation service that takes the stress out of cooking while supporting your health and taste preferences.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="chef-card">
-              <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Private Dining Experiences</h3>
+              <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Personalized Meal Preparation</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Transform your home into a world-class restaurant. Each menu is thoughtfully crafted using 
-                the finest seasonal ingredients, showcasing modern techniques with classical foundations.
+                Menus tailored to your own palate and designed to support your health goals. 
+                Freedom from grocery shopping - I choose only the best, freshest ingredients for your meals.
               </p>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Custom seasonal menus
+                  Menus tailored to your palate and health goals
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Wine pairing consultations
+                  Fresh ingredient sourcing and shopping
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Full-service dining experience
+                  Fully prepared and packaged meals
                 </li>
               </ul>
             </div>
@@ -91,23 +94,23 @@ const Home = () => {
               <div className="image-overlay group-hover:active rounded-lg" />
             </div>
             <div className="chef-card order-1 md:order-2">
-              <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Special Events & Celebrations</h3>
+              <h3 className="font-display text-2xl font-bold mb-4 text-foreground">Ready When You Are</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Whether it's an anniversary, birthday, or corporate gathering, create unforgettable memories 
-                with cuisine that reflects the importance of your special occasion.
+                Exactly what you want to eat when you're tired - meals that are fully prepared, packaged, 
+                and stored in your refrigerator so they're ready when you are.
               </p>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Intimate gatherings (2-12 guests)
+                  Meals stored ready in your refrigerator
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Corporate events & tastings
+                  Simple heating instructions included
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Holiday & celebration menus
+                  Relax and enjoy delicious dinner in minutes
                 </li>
               </ul>
             </div>
@@ -121,13 +124,13 @@ const Home = () => {
           <Card className="max-w-4xl mx-auto p-12 shadow-elegant bg-gradient-to-br from-salmon-light/10 to-gold-light/10 border-none">
             <blockquote className="text-center">
               <p className="font-display text-2xl md:text-3xl italic text-foreground mb-6 leading-relaxed">
-                "Jane transformed our anniversary dinner into an extraordinary culinary journey. 
-                Every course was a masterpiece that perfectly captured the essence of autumn. 
-                Truly an unforgettable experience."
+                "Jane's meal prep service has been a game-changer for our busy family. 
+                The meals are delicious, healthy, and exactly what we want to eat. 
+                It's like having a personal chef without the hassle!"
               </p>
               <footer className="text-muted-foreground">
                 <cite className="font-semibold">— Sarah & Michael Thompson</cite>
-                <p className="text-sm mt-1">20th Anniversary Celebration</p>
+                <p className="text-sm mt-1">Weekly Meal Prep Service</p>
               </footer>
             </blockquote>
           </Card>
@@ -138,10 +141,10 @@ const Home = () => {
       <section className="py-24 bg-gradient-hero">
         <div className="container mx-auto px-6 text-center">
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Begin Your Culinary Journey?
+            Ready to Simplify Your Meals?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Discover what makes each dining experience unique. Let's create something extraordinary together.
+            Let's discuss your tastes, health goals, and schedule to create the perfect meal plan just for you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -149,7 +152,7 @@ const Home = () => {
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 px-8 py-4 text-lg font-semibold rounded-full shadow-warm"
             >
-              <Link to="/about">Learn More About Jane</Link>
+              <Link to="/about">Learn More About Our Service</Link>
             </Button>
             <Button 
               asChild 

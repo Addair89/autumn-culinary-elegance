@@ -7,7 +7,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <NavLink to="/" className="font-display text-2xl font-bold text-primary">
-            See jane cook
+            See Jane Cook
           </NavLink>
           
           <div className="hidden md:flex space-x-8">
