@@ -155,7 +155,7 @@ All colors MUST be HSL.
   }
 
   .hero-overlay {
-    @apply absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70;
+    @apply absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/90;
   }
 
   /* Animation Classes */

@@ -32,7 +32,7 @@ const Home = () => {
             <Button 
               asChild 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold rounded-full shadow-warm"
+              className="bg-olive hover:bg-olive/90 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-warm"
             >
               <Link to="/contact">Start Your Meal Plan</Link>
             </Button>
