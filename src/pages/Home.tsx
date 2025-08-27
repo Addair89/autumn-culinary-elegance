@@ -150,7 +150,7 @@ const Home = () => {
             <Button 
               asChild 
               size="lg" 
-              className="bg-white text-primary hover:bg-white/90 px-8 py-4 text-lg font-semibold rounded-full shadow-warm"
+              className="bg-olive text-white hover:bg-olive/90 px-8 py-4 text-lg font-semibold rounded-full shadow-warm"
             >
               <Link to="/about">Learn More About Our Service</Link>
             </Button>
