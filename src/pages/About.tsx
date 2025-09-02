@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
-import chefPortrait from "@/assets/chef-portrait.jpg";
+import chefJaneLogo from "@/assets/ChefJaneLogo.png";
 import signatureDish from "@/assets/signature-dish.jpg";
 import diningExperience from "@/assets/dining-experience.jpg";
 import TestimonialCarousel from "@/components/ui/Testimonial";
@@ -12,7 +12,7 @@ const About = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative w-full bg-white py-20 px-6">
+      <section className="relative w-full bg-white py-32 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           {/* Left column - Text */}
           <div>
@@ -20,14 +20,14 @@ const About = () => {
               Meet Jane
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Chef Jane is a CCCP Accredited Private Chef specializing in
-              seasonal, locally sourced cuisine that brings warmth, elegance,
-              and unforgettable flavors to the table. With years of experience,
-              she crafts unique dining experiences tailored to each client’s
+              Chef Jane is an accredited personal chef specializing in seasonal,
+              locally sourced cuisine that brings warmth, elegance, and
+              unforgettable flavors to the table. With 25+ years of experience,
+              she crafts unique dining experiences tailored to each client's
               needs, blending tradition with innovation.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Whether it’s an intimate dinner party, a family gathering, or a
+              Whether it's an intimate dinner party, a family gathering, or a
               special celebration, Chef Jane transforms every meal into a
               culinary experience to remember.
             </p>
@@ -36,7 +36,7 @@ const About = () => {
           {/* Right column - Single Image */}
           <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-lg">
             <img
-              src={chefPortrait} // Replace with actual image
+              src={chefJaneLogo} // Replace with actual image
               alt="Chef [Name] portrait"
               className="object-cover"
             />
@@ -49,7 +49,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-display text-3xl font-bold text-black/65 mb-8">
-              Professional Credentials & Training
+              Professional Credentials & Experience
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="p-6 shadow-soft">
@@ -63,11 +63,12 @@ const About = () => {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">
-                  CCCP Accredited
+                  Private Lessons
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Certified by the Culinary Certification Council of
-                  Professionals with specialization in private dining.
+                  I offer personalized cooking lessons for individuals and small
+                  groups, teaching techniques and recipes that empower you to
+                  create delicious meals at home.
                 </p>
               </Card>
 

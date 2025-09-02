@@ -18,12 +18,12 @@ const Contact = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-16 overflow-hidden">
+      <section className="relative pt-56 pb-28 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{ backgroundImage: `url(${heroChef})` }}
         />
-        <div className="absolute inset-0 bg-rusty-red/45" />
+        <div className="absolute inset-0 bg-salmon/30" />
         <div className="relative container mx-auto px-6 text-center">
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
             Let's Create Something Extraordinary
@@ -56,9 +56,6 @@ const Contact = () => {
                         Phone
                       </h3>
                       <p className="text-muted-foreground">+1 (520) 360-2299</p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        Available Tuesday - Sunday, 10am - 8pm
-                      </p>
                     </div>
                   </Card>
 
@@ -73,9 +70,6 @@ const Contact = () => {
                       <p className="text-muted-foreground">
                         chefjane@seejanecook.com
                       </p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        Response within 24 hours
-                      </p>
                     </div>
                   </Card>
 
@@ -87,45 +81,12 @@ const Contact = () => {
                       <h3 className="font-semibold text-foreground mb-1">
                         Service Area
                       </h3>
-                      <p className="text-muted-foreground">
-                        Greater Tucson Area
-                      </p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        Travel within 50 miles of downtown
-                      </p>
+                      <p className="text-muted-foreground">All of Tucson</p>
                     </div>
                   </Card>
                 </div>
 
                 {/* Social Media */}
-                <div className="mt-8">
-                  <h3 className="font-semibold text-foreground mb-4">
-                    Follow the Journey
-                  </h3>
-                  <div className="flex space-x-4">
-                    <a
-                      href="https://instagram.com/seejanecook"
-                      className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors duration-300"
-                      aria-label="Follow on Instagram"
-                    >
-                      <Instagram className="w-6 h-6 text-primary" />
-                    </a>
-                    <a
-                      href="https://facebook.com/seejanecook"
-                      className="w-12 h-12 bg-salmon/10 rounded-full flex items-center justify-center hover:bg-salmon/20 transition-colors duration-300"
-                      aria-label="Follow on Facebook"
-                    >
-                      <Facebook className="w-6 h-6 text-salmon" />
-                    </a>
-                    <a
-                      href="https://twitter.com/seejanecook"
-                      className="w-12 h-12 bg-olive/10 rounded-full flex items-center justify-center hover:bg-olive/20 transition-colors duration-300"
-                      aria-label="Follow on Twitter"
-                    >
-                      <Twitter className="w-6 h-6 text-olive" />
-                    </a>
-                  </div>
-                </div>
               </div>
 
               {/* Booking Information */}
@@ -139,9 +100,7 @@ const Contact = () => {
                     Ready to Begin?
                   </h3>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
-                    Each culinary experience is uniquely crafted for you. To
-                    ensure the perfect menu and service, I recommend booking at
-                    least 2-3 weeks in advance.
+                    Each culinary experience is uniquely crafted for you.
                   </p>
 
                   <div className="space-y-4 mb-6">
@@ -152,8 +111,7 @@ const Contact = () => {
                           Initial Consultation
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Complimentary 30-minute discussion about your event,
-                          preferences, and dietary requirements
+                          We will talk and plan your perfect dining experience.
                         </p>
                       </div>
                     </div>
@@ -165,8 +123,8 @@ const Contact = () => {
                           Custom Menu Creation
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Personalized menu designed specifically for your
-                          occasion and guest count
+                          Personalized menu designed specifically for your goals
+                          and preferences.
                         </p>
                       </div>
                     </div>
@@ -186,10 +144,6 @@ const Contact = () => {
                   </div>
 
                   <div className="pt-4 border-t border-border/50">
-                    <p className="text-sm text-muted-foreground mb-4">
-                      <strong>Minimum booking:</strong> 4 guests |{" "}
-                      <strong>Advanced notice:</strong> 2-3 weeks recommended
-                    </p>
                     <Button
                       className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 rounded-full shadow-warm"
                       onClick={() =>
@@ -201,7 +155,7 @@ const Contact = () => {
                   </div>
                 </Card>
 
-                <Card className="mt-6 p-6 shadow-soft">
+                {/* <Card className="mt-6 p-6 shadow-soft">
                   <h4 className="font-semibold text-foreground mb-3">
                     Frequently Asked Questions
                   </h4>
@@ -237,7 +191,7 @@ const Contact = () => {
                       </p>
                     </div>
                   </div>
-                </Card>
+                </Card> */}
               </div>
             </div>
           </div>

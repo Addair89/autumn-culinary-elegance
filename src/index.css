@@ -73,6 +73,27 @@ All colors MUST be HSL.
       hsl(var(--gold-dark) / 0.4),
       hsl(var(--salmon) / 0.3)
     );
+    --gradient-warm-glow: linear-gradient(
+      to right,
+      hsl(var(--gold-light) / 0.65),
+      hsl(var(--salmon-light) / 0.55)
+    );
+    --gradient-golden-warmth: linear-gradient(
+      135deg,
+      hsl(var(--gold) / 0.7),
+      hsl(var(--rusty-red) / 0.5)
+    );
+    --gradient-olive-accent: linear-gradient(
+      to bottom right,
+      hsl(var(--gold-light) / 0.6),
+      hsl(var(--olive-light) / 0.4),
+      hsl(var(--salmon) / 0.5)
+    );
+    --gradient-salmon-gold-light: linear-gradient(
+      135deg,
+      hsl(var(--salmon) / 0.35),
+      hsl(var(--gold-light) / 0.4)
+    );
 
     /* Shadows */
     --shadow-warm: 0 10px 40px -10px hsl(var(--gold-dark) / 0.25);

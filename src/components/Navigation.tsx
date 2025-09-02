@@ -1,19 +1,17 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import chefJaneLogo from "@/assets/ChefJaneLogo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false); // <-- state for mobile menu
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
+    <nav className="fixed top-0 left-0 right-0 z-50 text-lg bg-white backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <NavLink
-            to="/"
-            className="font-display text-2xl font-bold text-rusty-red-dark"
-          >
-            See Jane Cook
+          <NavLink to="/">
+            <img src={chefJaneLogo} alt="See Jane Cook Logo" className="h-20" />
           </NavLink>
 
           {/* Desktop menu */}

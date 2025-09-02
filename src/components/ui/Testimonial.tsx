@@ -45,7 +45,7 @@ export default function TestimonialCarousel() {
   return (
     <section
       className="py-10"
-      style={{ backgroundImage: "var(--gradient-subtle)" }}
+      style={{ backgroundImage: "var(--gradient-olive-accent)" }}
     >
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-rusty-red-dark text-center mb-12 drop-shadow-sm">
@@ -55,7 +55,7 @@ export default function TestimonialCarousel() {
         <Carousel
           plugins={[
             Autoplay({
-              delay: 5000,
+              delay: 9000,
             }),
           ]}
           className="w-full max-w-3xl mx-auto"
