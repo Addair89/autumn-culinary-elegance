@@ -5,7 +5,7 @@ import Navigation from "@/components/Navigation";
 import heroChef from "@/assets/hero-chef-dark.jpg";
 import signatureDish from "@/assets/signature-dish.jpg";
 import diningExperience from "@/assets/foodImage1.jpg";
-import diningExperience2 from "@/assets/foodImage2.jpg";
+import diningExperience2 from "@/assets/foodimage2.jpg";
 import TestimonialCarousel from "@/components/ui/Testimonial";
 import Footer from "@/components/ui/footer";
 
