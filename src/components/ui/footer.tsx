@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-[#1a1a1a] text-gray-200 py-8">
@@ -8,18 +10,21 @@ const Footer = () => {
             See Jane Cook
           </div>
           <nav className="flex space-x-6 mt-4 md:mt-0">
-            <a href="/" className="hover:text-[#D4AF37] transition-colors">
+            <NavLink to="/" className="hover:text-[#D4AF37] transition-colors">
               Home
-            </a>
-            <a href="/about" className="hover:text-[#D4AF37] transition-colors">
+            </NavLink>
+            <NavLink
+              to="/about"
+              className="hover:text-[#D4AF37] transition-colors"
+            >
               About
-            </a>
-            <a
-              href="/contact"
+            </NavLink>
+            <NavLink
+              to="/contact"
               className="hover:text-[#D4AF37] transition-colors"
             >
               Contact
-            </a>
+            </NavLink>
           </nav>
         </div>
 
@@ -28,7 +33,10 @@ const Footer = () => {
           <div className="space-y-1 text-center md:text-left">
             <p>
               Email:{" "}
-              <a href="mailto:chef@email.com" className="hover:text-[#FA8072]">
+              <a
+                href="mailto:chefjane@seejanecook.com"
+                className="hover:text-[#FA8072]"
+              >
                 chefjane@seejanecook.com
               </a>
             </p>

@@ -31,8 +31,9 @@ const testimonials = [
   },
   {
     quote:
-      "Wow – do I love coming home after you've spent a day in my kitchen. Not only does my house smell amazing, but your food is always so delicious. Those roasted veggies are the best I ever had and we just love the great variety of dishes that you've prepared for us like the Apricot Glazed Cornish Hens and Veal in Wild Mushroom sauce. We feel completely indulged with your cooking and can't thank you enough for being a part of our lives.",
-    author: "Lori G.",
+      "There's nothing two chefs love more than delicious food, whether it's something exotic and gourmet, or old time comfort food favorites. But when we don't have the time or the inclination to shop for ingredients and cook for ourselves and our families, Jane is a godsend! She listened to all our food preferences, was able to honor our gluten free requests and made wonderful suggestions. Both the entrees and side dishes are a food lover's delight with ample portions. Our top faves include Lemon Caper Halibut, Basil Shrimp, Beef Strogonoff, Couscous Salad and Roasted Vegetables. Give Jane a try, you will be spoiled forever!",
+    author:
+      "Susan Fulton/Mary Steiger Chef Owners Gourmet Girls Gluten Free Bakery/Bistro",
   },
   {
     quote:

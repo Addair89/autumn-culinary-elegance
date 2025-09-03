@@ -66,49 +66,41 @@ const Home = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
-              What You Get
+              Your Service Includes
             </h2>
             <p className="text-foreground text-lg max-w-2xl mx-auto">
-              Personalized meal prep without the work. Customized menus, grocery
-              shopping, and cooking, are all included to support your health
-              goals.
+              Exactly what you want to eat without any of the work. Exquisitely
+              prepared meals from family favorites to unique international
+              cuisine.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="chef-card bg-[#faebd7]">
-              <h3 className="font-display text-2xl font-bold mb-4 text-neutral-950">
-                Personalized Meal Preparation
+              <h3 className="font-display capitalize text-2xl font-bold mb-4 text-neutral-950">
+                All cuisine is made to your individual palate, supporting your
+                wellness journey and lifestyle.
               </h3>
-              <p className="mb-6 leading-relaxed text-neutral-950">
-                Menus tailor-made to your individual palate supporting your
-                wellness journey.
-              </p>
               <ul className="space-y-2 text-neutral-950">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Freedom from grocery shopping - I choose only the best,
-                  freshest ingredients for your meals
+                  Customized menu planning
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Everything made from scratch
+                  Complete grocery shopping
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Menus tailored to your palate and health goals
+                  Fully Cooked meals packaged and labeled
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Soucing only the finest ingredients
+                  Simple heating instructions
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Fully prepared and packaged meals
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Allergic to garlic? No problem!
+                  More Time to relax with your family
                 </li>
               </ul>
             </div>
@@ -132,50 +124,51 @@ const Home = () => {
               <div className="image-overlay group-hover:active rounded-lg" />
             </div>
             <div className="chef-card bg-[#faebd7] order-1 md:order-2">
-              <h3 className="font-display text-2xl font-bold mb-4 text-neutral-950">
-                Your Meals Ready On Your Time
+              <h3 className="font-display capitalize text-2xl font-bold mb-4 text-neutral-950">
+                Dinner time couldnt be more convient
               </h3>
-              <p className="mb-6 leading-relaxed text-neutral-950">
-                You Get exactly what you want to eat, all meals are fully cooked
-                and labeled for fridge or freezer storage.
-              </p>
               <ul className="space-y-2 text-neutral-950">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Stress free meals in minutes
+                  Top notch ingredients sourced for all your meals
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Relax and enjoy delicious a meal anytime
+                  Expertise in allergies and special diets
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Gourmet food at your fingertips
+                  Meals packaged for fridge or freezer
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
+                  No more food waste
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
+                  Heat and eat in a matter of minutes
                 </li>
               </ul>
             </div>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center mt-20">
             <div className="chef-card bg-[#faebd7]">
-              <h3 className="font-display text-2xl font-bold mb-4 text-neutral-950">
-                Cooking Lessons
-              </h3>
-              <p className="mb-6 leading-relaxed text-neutral-950">
+              <h3 className="font-display capitalize text-2xl font-bold mb-4 text-neutral-950">
                 Learn the techniques and recipes that empower you to create
-                delicious meals at home.
-              </p>
+                delicious meals at home
+              </h3>
               <ul className="space-y-2 text-neutral-950">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Individual lessons
+                  Individual and small group lessons
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Small group lessons
+                  Hands on cooking experience
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Hands-on experience
+                  You choose your own curriculum
                 </li>
               </ul>
             </div>
@@ -244,8 +237,8 @@ const Home = () => {
       {/* Call to Action */}
       <section className="py-24 bg-gradient-hero">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-black/65 mb-6">
-            Ready to Experience Effortless Elegance?
+          <h2 className="font-display capitalize text-4xl md:text-5xl font-bold text-black/65 mb-6">
+            Everyday dining made effortlessly elegant!
           </h2>
           <p className="text-black/65 text-lg mb-8 max-w-2xl mx-auto">
             Lets discuss everything food so I can create the perfect service
