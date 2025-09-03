@@ -92,7 +92,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Fully Cooked meals packaged and labeled
+                  Fully cooked meals packaged and labeled
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
@@ -100,7 +100,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  More Time to relax with your family
+                  More time to relax with your family
                 </li>
               </ul>
             </div>
