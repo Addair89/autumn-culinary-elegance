@@ -20,15 +20,15 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="relative pt-56 pb-28 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-90"
           style={{ backgroundImage: `url(${heroChef})` }}
         />
-        <div className="absolute inset-0 bg-salmon/30" />
+        <div className="absolute inset-0 bg-salmon/95" />
         <div className="relative container mx-auto px-6 text-center">
-          <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
+          <h1 className="font-display text-4xl md:text-6xl font-bold text-gray-50 mb-6">
             Let's Create Something Extraordinary
           </h1>
-          <p className="text-black/80 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-50 text-lg max-w-2xl mx-auto">
             Ready to transform your next dining occasion into an unforgettable
             culinary experience? I'm here to bring your vision to life.
           </p>
@@ -36,13 +36,13 @@ const Contact = () => {
       </section>
 
       {/* Contact Information */}
-      <section className="py-16">
+      <section className="py-16 bg-olive/70">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
               {/* Contact Details */}
               <div>
-                <h2 className="font-display text-3xl font-bold text-foreground mb-8">
+                <h2 className="font-display text-3xl font-bold text-white underline mb-8">
                   Get In Touch
                 </h2>
 
@@ -91,7 +91,7 @@ const Contact = () => {
 
               {/* Booking Information */}
               <div>
-                <h2 className="font-display text-3xl font-bold text-foreground mb-8">
+                <h2 className="font-display text-3xl font-bold text-white underline mb-8">
                   Booking Information
                 </h2>
 

@@ -60,15 +60,15 @@ const Home = () => {
 
       {/* Services Section */}
       <section
-        className="py-24"
-        style={{ backgroundImage: "var(--gradient-olive-accent)" }}
+        className="py-24 bg-rusty-red-dark/90"
+        // style={{ backgroundImage: "var(--gradient-accent)" }}
       >
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-200 mb-4">
               Your Service Includes
             </h2>
-            <p className="text-foreground text-lg max-w-2xl mx-auto">
+            <p className="text-gray-200 text-lg max-w-2xl mx-auto">
               Exactly what you want to eat without any of the work. Exquisitely
               prepared meals from family favorites to unique international
               cuisine.
@@ -125,12 +125,12 @@ const Home = () => {
             </div>
             <div className="chef-card bg-[#faebd7] order-1 md:order-2">
               <h3 className="font-display capitalize text-2xl font-bold mb-4 text-neutral-950">
-                Dinner time couldnt be more convient
+                Dinner time couldn't be more convenient
               </h3>
               <ul className="space-y-2 text-neutral-950">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>
-                  Top notch ingredients sourced for all your meals
+                  Top-notch ingredients sourced for all your meals
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-rusty-red rounded-full mr-3"></span>

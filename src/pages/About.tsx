@@ -12,21 +12,19 @@ const About = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative w-full bg-white py-32 px-6">
+      <section className="relative w-full bg-olive py-32 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           {/* Left column - Text */}
           <div>
-            <h2 className="text-4xl font-bold text-rusty-red mb-6">
-              Meet Jane
-            </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <h2 className="text-4xl font-bold text-gray-200 mb-6">Meet Jane</h2>
+            <p className="text-lg text-gray-100 leading-relaxed mb-6">
               Chef Jane is an accredited personal chef specializing in seasonal,
               locally sourced cuisine that brings warmth, elegance, and
               unforgettable flavors to the table. With 25+ years of experience,
               she crafts unique dining experiences tailored to each client's
               needs, blending tradition with innovation.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-100 leading-relaxed">
               Whether it's an intimate dinner party, a family gathering, or a
               special celebration, Chef Jane transforms every meal into a
               culinary experience to remember.
