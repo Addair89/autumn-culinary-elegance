@@ -4,8 +4,8 @@ import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import heroChef from "@/assets/hero-chef-dark.jpg";
 import signatureDish from "@/assets/signature-dish.jpg";
-import diningExperience from "@/assets/foodImage1.jpg";
-import diningExperience2 from "@/assets/foodimage2.jpg";
+import diningExperience from "@/assets/drumsticks.webp";
+import diningExperience2 from "@/assets/tomato-dish.jpg";
 import TestimonialCarousel from "@/components/ui/Testimonial";
 import Footer from "@/components/ui/footer";
 
@@ -204,10 +204,10 @@ const Home = () => {
             <div className="dietary-item">Gluten Free</div>
             <div className="dietary-item">Kosher</div>
             <div className="dietary-item">Vegan</div>
-            <div className="dietary-item">Raw Foods</div>
-            <div className="dietary-item">Yeast Free</div>
-            <div className="dietary-item">Atkins</div>
-            <div className="dietary-item">South Beach</div>
+            <div className="dietary-item">Diabetic</div>
+            <div className="dietary-item">Vegetarian</div>
+            <div className="dietary-item">Keto</div>
+            <div className="dietary-item">Elimination</div>
             <div className="dietary-item">Heart Healthy</div>
             <div className="dietary-item">Food Allergies</div>
             <div className="dietary-item">Low Fat</div>
@@ -220,10 +220,10 @@ const Home = () => {
             <div className="dietary-item">Gluten Free</div>
             <div className="dietary-item">Kosher</div>
             <div className="dietary-item">Vegan</div>
-            <div className="dietary-item">Raw Foods</div>
-            <div className="dietary-item">Yeast Free</div>
-            <div className="dietary-item">Atkins</div>
-            <div className="dietary-item">South Beach</div>
+            <div className="dietary-item">Diabetic</div>
+            <div className="dietary-item">Vegetarian</div>
+            <div className="dietary-item">Keto</div>
+            <div className="dietary-item">Elimination</div>
             <div className="dietary-item">Heart Healthy</div>
             <div className="dietary-item">Food Allergies</div>
             <div className="dietary-item">Low Fat</div>

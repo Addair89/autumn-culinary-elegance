@@ -1,8 +1,10 @@
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
-import chefJaneLogo from "@/assets/ChefJaneLogo.png";
-import signatureDish from "@/assets/signature-dish.jpg";
-import diningExperience from "@/assets/dining-experience.jpg";
+import chefJanePortrait from "@/assets/ChefJaneLogo.png";
+import dish1 from "@/assets/cauliflower.webp";
+import dish2 from "@/assets/drumsticks.webp";
+import dish3 from "@/assets/janes-beets.webp";
+import signatureBanner from "@/assets/janes-chicken.webp";
 import TestimonialCarousel from "@/components/ui/Testimonial";
 import Footer from "@/components/ui/footer";
 
@@ -16,42 +18,80 @@ const About = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           {/* Left column - Text */}
           <div>
-            <h2 className="text-4xl font-bold text-gray-200 mb-6">Meet Jane</h2>
-            <p className="text-lg text-gray-100 leading-relaxed mb-6">
-              Chef Jane is an accredited personal chef specializing in seasonal,
-              locally sourced cuisine that brings warmth, elegance, and
-              unforgettable flavors to the table. With 25+ years of experience,
-              she crafts unique dining experiences tailored to each client's
-              needs, blending tradition with innovation.
+            <h2 className="text-4xl font-bold text-card mb-6">Meet Jane</h2>
+            <p className="text-lg text-card leading-relaxed mb-6">
+              Chef Jane has been creating delicious cuisine for her clients
+              since her business opened in May 2000. Chef Jane specializes in
+              colorful, delectable offerings that are made-from-scratch healthy
+              and support her clients' lifestyles. From traditional classics
+              like Stuffed Cabbage and Authentic Hungarian Goulash to Exotic
+              Brinjal and Curries, Chef Jane's clients experience new and unique
+              menus with each service.
             </p>
-            <p className="text-lg text-gray-100 leading-relaxed">
-              Whether it's an intimate dinner party, a family gathering, or a
-              special celebration, Chef Jane transforms every meal into a
-              culinary experience to remember.
+            <p className="text-lg text-card leading-relaxed">
+              Chef Jane's attention to detail and her quest for sourcing the
+              best quality ingredients provides her clients with distinctive,
+              high-quality cuisine that takes minutes to serve. After years in
+              the restaurant industry, See Jane Cook was born to help busy
+              people eat well without any of the hassle to plan, shop, or cook.
+              Tasty, eclectic convenience is just a click away.
             </p>
           </div>
 
-          {/* Right column - Single Image */}
-          <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-lg">
+          {/* Right column - Image collage */}
+          <div className="grid grid-cols-2 gap-4">
             <img
-              src={chefJaneLogo} // Replace with actual image
-              alt="Chef [Name] portrait"
-              className="object-cover"
+              src={chefJanePortrait}
+              alt="Chef Jane portrait"
+              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
+            />
+            <img
+              src={dish1}
+              alt="Delicious dish"
+              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
+            />
+            <img
+              src={dish2}
+              alt="Gourmet plating"
+              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
+            />
+            <img
+              src={dish3}
+              alt="Fine dining experience"
+              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
             />
           </div>
         </div>
       </section>
 
+      {/* Full-width Banner */}
+      <section
+        className="relative h-[500px] bg-fixed bg-top bg-cover flex items-center justify-center md:bg-fixed"
+        style={{
+          backgroundImage: `url(${signatureBanner})`, // replace with your actual path
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div className="relative z-10 text-center text-white px-6">
+          <h2 className="text-4xl md:text-5xl uppercase font-bold drop-shadow-lg leading-relaxed">
+            A culinary experience designed <br></br> to delight every palate.
+          </h2>
+          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md"></p>
+        </div>
+      </section>
+
       {/* Credentials Section */}
-      <section className="py-16 bg-gradient-hero">
+      <section className="py-16 bg-gradient-accent">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-display text-3xl font-bold text-black/65 mb-8">
+            <h2 className="font-display text-3xl font-bold text-card mb-8">
               Professional Credentials & Experience
             </h2>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Card 1 */}
               <Card className="p-6 shadow-soft">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  {/* icon */}
                   <svg
                     className="w-8 h-8 text-primary"
                     fill="currentColor"
@@ -61,17 +101,21 @@ const About = () => {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">
-                  Private Lessons
+                  Cooking Classes
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  I offer personalized cooking lessons for individuals and small
-                  groups, teaching techniques and recipes that empower you to
-                  create delicious meals at home.
+                  Chef Jane offers private cooking lessons for individuals and
+                  smalls groups. Pizza making classes, outdoor grilling, and a
+                  multitude of international cuisines are all waiting so you can
+                  learn hands-on techniques to help you gain confidence in the
+                  kitchen and broaden your repertoire.
                 </p>
               </Card>
 
+              {/* Card 2 */}
               <Card className="p-6 shadow-soft">
                 <div className="w-16 h-16 bg-salmon/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  {/* icon */}
                   <svg
                     className="w-8 h-8 text-salmon"
                     fill="currentColor"
@@ -81,33 +125,12 @@ const About = () => {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">
-                  25+ Years of Culinary Expertise
+                  25+ Years In Business
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  With over 25 years of professional experience, Chef Jane
-                  brings world-class training and creativity to every plate,
-                  ensuring an unforgettable dining experience.
-                </p>
-              </Card>
-
-              <Card className="p-6 shadow-soft">
-                <div className="w-16 h-16 bg-olive/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg
-                    className="w-8 h-8 text-olive"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M7 2a1 1 0 011 1v6a2 2 0 01-2 2v10a1 1 0 11-2 0V11a2 2 0 01-2-2V3a1 1 0 112 0v6h1V3a1 1 0 011-1zm10 0a2 2 0 012 2v6a4 4 0 01-3 3.87V21a1 1 0 11-2 0v-7.13A4 4 0 0115 10V4a2 2 0 012-2z" />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-foreground mb-2">
-                  Personalized Fine Dining
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  Every dish is crafted with high-quality, locally sourced
-                  ingredients and presented with care. Chef Jane combines
-                  refined flavors with personalized service, creating a dining
-                  experience that feels as special as it tastes.
+                  There's a reason See Jane Cook is the longest operating
+                  personal chef service in Tucson. Fantastic food and service,
+                  generous portions, and ideal meals for family or entertaining.
                 </p>
               </Card>
             </div>

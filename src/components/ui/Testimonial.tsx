@@ -37,8 +37,8 @@ const testimonials = [
   },
   {
     quote:
-      "Chef Jane Cherry constantly amazes me. She approaches her work and her clients with attentiveness and vigor. Jane always seeks the best foods, the best cooking techniques – whatever she feels she needs to make her clients and herself happy. Very few people take the time or make the effort like she does anymore. So refreshing!",
-    author: "K. Kruger, Food Service & Menu Development Consultant",
+      "Chef Jane has provided delicious Old-World classics that our family and friends love. She is a joy to work with and she goes above and beyond to make sure that everything is spiced just right. My fridge is always stocked with her wonderful dinners.",
+    author: "Ingrid N.",
   },
 ];
 
