@@ -66,7 +66,7 @@ const About = () => {
 
       {/* Full-width Banner */}
       <section
-        className="relative h-[500px] bg-fixed bg-top bg-cover flex items-center justify-center md:bg-fixed"
+        className="relative h-[500px] bg-top bg-cover flex items-center justify-center md:bg-fixed"
         style={{
           backgroundImage: `url(${signatureBanner})`, // replace with your actual path
         }}
