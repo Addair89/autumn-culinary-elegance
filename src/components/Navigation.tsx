@@ -11,7 +11,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <NavLink to="/">
-            <img src={chefJaneLogo} alt="See Jane Cook Logo" className="h-20" />
+            <img src={chefJaneLogo} alt="See Jane Cook Logo" className="h-24" />
           </NavLink>
 
           {/* Desktop menu */}

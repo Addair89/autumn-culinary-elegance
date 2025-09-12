@@ -32,7 +32,7 @@ const Contact = () => {
           </h1>
           <p className="text-gray-200 text-lg max-w-2xl mx-auto">
             Are you ready to transform your mundane meals into savory culinary
-            experiences
+            experiences?
           </p>
         </div>
       </section>
@@ -97,7 +97,7 @@ const Contact = () => {
               />
             </div>
             {/* Bottom Right Image */}
-            <div className="hidden m-4 md:m-0 md:block rounded-2xl overflow-hidden shadow-lg">
+            <div className=" my-4 md:m-0 md:block rounded-2xl overflow-hidden shadow-lg">
               <img
                 src={dish2}
                 alt="Dish 2"
@@ -111,7 +111,7 @@ const Contact = () => {
                 Booking Information
               </h2> */}
 
-              <Card className="p-8 shadow-elegant bg-gradient-to-br from-gold-light/10 to-salmon-light/10 border-none">
+              <Card className="p-8 mt-6 md:mt-0 shadow-elegant bg-gradient-to-br from-gold-light/10 to-salmon-light/10 border-none">
                 <h3 className="font-display text-xl font-bold text-foreground mb-4">
                   Ready to Begin?
                 </h3>
@@ -127,7 +127,8 @@ const Contact = () => {
                         Initial Consultation
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        We will talk and plan your perfect dining experience.
+                        We'll talk about your food preferences and plan the
+                        perfect service to make your life more manageable.
                       </p>
                     </div>
                   </div>
@@ -136,11 +137,11 @@ const Contact = () => {
                     <div className="w-2 h-2 bg-salmon rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-foreground">
-                        Custom Menu Creation
+                        Custom Menu Creation.
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Personalized menu designed specifically for your goals
-                        and preferences.
+                        Personalized menus designed specifically for your goals
+                        and lifestyle.
                       </p>
                     </div>
                   </div>
@@ -149,11 +150,12 @@ const Contact = () => {
                     <div className="w-2 h-2 bg-olive rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-foreground">
-                        Full-Service Experience
+                        Full-Service Experience.
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        From preparation to presentation, every detail is
-                        handled with professional care
+                        From preparation to presentation, you'll love having
+                        custom meals at your fingertips for any time, any
+                        occasion.
                       </p>
                     </div>
                   </div>

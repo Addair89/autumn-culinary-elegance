@@ -15,10 +15,12 @@ const About = () => {
 
       {/* Hero Section */}
       <section className="relative w-full bg-olive py-32 px-6">
-        <div className="max-w-7xl mx-auto flex justify-center gap-12 items-center">
+        <div className="max-w-7xl mx-auto md:flex justify-center gap-12 items-center">
           {/* Left column - Text */}
           <div className="flex-1 max-w-2xl">
-            <h2 className="text-4xl font-bold text-card mb-6">Meet Jane</h2>
+            <h2 className="text-4xl font-bold text-card mb-6 mt-6 md:mt-0">
+              Meet Jane
+            </h2>
             <p className="text-lg text-card leading-relaxed mb-6">
               Chef Jane has been creating delicious cuisine for her clients
               since her business opened in May 2000. Chef Jane specializes in
@@ -43,7 +45,7 @@ const About = () => {
             <img
               src={chefJanePortrait}
               alt="Chef Jane portrait"
-              className="rounded-2xl w-full h-[480px] shadow-lg"
+              className="rounded-2xl mt-4 w-full h-[480px] shadow-lg"
             />
           </div>
         </div>
@@ -72,7 +74,7 @@ const About = () => {
             Professional Credentials & Experience
           </h2>
 
-          <div className="grid md:grid-cols-3 auto-rows-[250px] gap-6">
+          <div className="grid md:grid-cols-3 md:auto-rows-[250px] gap-6">
             {/* Image 1 (large) */}
             <div className="relative col-span-2 row-span-1 rounded-2xl overflow-hidden">
               <img
