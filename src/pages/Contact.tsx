@@ -12,7 +12,7 @@ import {
 import heroChef from "@/assets/meatandveggies3.jpg";
 import bookingPhoto from "@/assets/brocolli-oranges.jpg";
 import Footer from "@/components/ui/footer";
-import dish2 from "@/assets/meatandveggies2.webp";
+import dish2 from "@/assets/janevietbeef.jpg";
 
 const Contact = () => {
   return (
