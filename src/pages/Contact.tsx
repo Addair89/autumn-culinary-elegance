@@ -186,7 +186,7 @@ const Contact = () => {
           <p className="text-black/65/90 text-lg mb-8 max-w-2xl mx-auto">
             Reach out today and let's start planning your perfect menu for
             effortless in-home dining without any of the work. See Jane Cook
-            helps you get back the time you wish you had..
+            helps you get back the time you wish you had.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

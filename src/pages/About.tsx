@@ -43,7 +43,7 @@ const About = () => {
           {/* Right column - Single Image */}
           <div>
             <img
-              src={chefJanePortrait}
+              src={dish3}
               alt="Chef Jane portrait"
               className="rounded-2xl mt-4 w-full h-[480px] shadow-lg"
             />
@@ -71,7 +71,7 @@ const About = () => {
       <section className="py-16 bg-gradient-accent">
         <div className="container mx-auto px-6">
           <h2 className="font-display text-3xl font-bold text-card text-center mb-12">
-            Professional Credentials & Experience
+            Professional Experience
           </h2>
 
           <div className="grid md:grid-cols-3 md:auto-rows-[250px] gap-6">
