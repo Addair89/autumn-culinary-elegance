@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import chefJanePortrait from "@/assets/ChefJaneLogo.png";
 import dish1 from "@/assets/cauliflower.webp";
-import dish2 from "@/assets/drumsticks.webp";
+import dish2 from "@/assets/brussels.jpg";
 import dish3 from "@/assets/janes-beets.webp";
 import signatureBanner from "@/assets/janes-chicken.webp";
 import TestimonialCarousel from "@/components/ui/Testimonial";
@@ -15,9 +15,9 @@ const About = () => {
 
       {/* Hero Section */}
       <section className="relative w-full bg-olive py-32 px-6">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto flex justify-center gap-12 items-center">
           {/* Left column - Text */}
-          <div>
+          <div className="flex-1 max-w-2xl">
             <h2 className="text-4xl font-bold text-card mb-6">Meet Jane</h2>
             <p className="text-lg text-card leading-relaxed mb-6">
               Chef Jane has been creating delicious cuisine for her clients
@@ -38,27 +38,12 @@ const About = () => {
             </p>
           </div>
 
-          {/* Right column - Image collage */}
-          <div className="grid grid-cols-2 gap-4">
+          {/* Right column - Single Image */}
+          <div>
             <img
               src={chefJanePortrait}
               alt="Chef Jane portrait"
-              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
-            />
-            <img
-              src={dish1}
-              alt="Delicious dish"
-              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
-            />
-            <img
-              src={dish2}
-              alt="Gourmet plating"
-              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
-            />
-            <img
-              src={dish3}
-              alt="Fine dining experience"
-              className="rounded-2xl object-cover h-[240px] w-full shadow-lg"
+              className="rounded-2xl w-full h-[480px] shadow-lg"
             />
           </div>
         </div>
@@ -83,56 +68,78 @@ const About = () => {
       {/* Credentials Section */}
       <section className="py-16 bg-gradient-accent">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-display text-3xl font-bold text-card mb-8">
-              Professional Credentials & Experience
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* Card 1 */}
-              <Card className="p-6 shadow-soft">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  {/* icon */}
+          <h2 className="font-display text-3xl font-bold text-card text-center mb-12">
+            Professional Credentials & Experience
+          </h2>
+
+          <div className="grid md:grid-cols-3 auto-rows-[250px] gap-6">
+            {/* Image 1 (large) */}
+            <div className="relative col-span-2 row-span-1 rounded-2xl overflow-hidden">
+              <img
+                src={dish2}
+                alt="Chef in action"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-black/20" />
+            </div>
+
+            {/* Card 1 */}
+            <Card className="p-6 bg-card backdrop-blur-md rounded-2xl shadow-soft flex flex-col justify-between">
+              <div>
+                <div className="w-16 h-16 bg-salmon/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
                     className="w-8 h-8 text-primary"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    {" "}
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />{" "}
                   </svg>
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">
+                <h3 className="font-semibold text-center text-2xl text-foreground mb-2">
                   Cooking Classes
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   Chef Jane offers private cooking lessons for individuals and
-                  smalls groups. Pizza making classes, outdoor grilling, and a
-                  multitude of international cuisines are all waiting so you can
-                  learn hands-on techniques to help you gain confidence in the
-                  kitchen and broaden your repertoire.
+                  small groups. Pizza making, outdoor grilling, and
+                  international cuisines are all waiting so you can learn
+                  hands-on techniques to gain confidence in the kitchen.
                 </p>
-              </Card>
+              </div>
+            </Card>
 
-              {/* Card 2 */}
-              <Card className="p-6 shadow-soft">
+            {/* Card 2 */}
+            <Card className="p-6 bg-card backdrop-blur-md rounded-2xl shadow-soft flex flex-col justify-between">
+              <div>
                 <div className="w-16 h-16 bg-salmon/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  {/* icon */}
                   <svg
                     className="w-8 h-8 text-salmon"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M12 2a5 5 0 00-5 5c0 1.4.58 2.67 1.52 3.58A6.99 6.99 0 006 17v3a1 1 0 001 1h10a1 1 0 001-1v-3a6.99 6.99 0 00-2.52-6.42A4.978 4.978 0 0017 7a5 5 0 00-5-5z" />
+                    {" "}
+                    <path d="M12 2a5 5 0 00-5 5c0 1.4.58 2.67 1.52 3.58A6.99 6.99 0 006 17v3a1 1 0 001 1h10a1 1 0 001-1v-3a6.99 6.99 0 00-2.52-6.42A4.978 4.978 0 0017 7a5 5 0 00-5-5z" />{" "}
                   </svg>
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">
+                <h3 className="font-semibold text-foreground text-center text-2xl mb-2">
                   25+ Years In Business
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   There's a reason See Jane Cook is the longest operating
-                  personal chef service in Tucson. Fantastic food and service,
-                  generous portions, and ideal meals for family or entertaining.
+                  personal chef service in Tucson. Fantastic food, generous
+                  portions, and ideal meals for family or entertaining.
                 </p>
-              </Card>
+              </div>
+            </Card>
+
+            {/* Image 2 (large) */}
+            <div className="relative col-span-2 row-span-1 rounded-2xl overflow-hidden">
+              <img
+                src={dish1}
+                alt="Prepared dish"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-black/20" />
             </div>
           </div>
         </div>
