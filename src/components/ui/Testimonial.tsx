@@ -26,8 +26,8 @@ const testimonials = [
   },
   {
     quote:
-      "Jane has been able to meet our particular dietary needs and provide very tasty entrees. We have enjoyed having good meals at home instead of eating on the run.",
-    author: "Kay R.",
+      "We are big fans of Jane's cooking and her service is superb!  Her dinners are widely diverse, very flavorful and tailored to our palates. They have kept us healthy and happy for the past 8 years. Every Sunday she delivers three meals with four generous servings. Each has a main protein dish and two healthy sides.  We highly recommend her work to anyone lucky enough to have her cook for them.",
+    author: "Richard & Karen",
   },
   {
     quote:
@@ -45,11 +45,11 @@ const testimonials = [
 export default function TestimonialCarousel() {
   return (
     <section
-      className="py-10"
-      style={{ backgroundImage: "var(--gradient-olive-accent)" }}
+      className="py-10 bg-olive-light"
+      // style={{ backgroundImage: "var(--gradient-olive-accent)" }}
     >
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-rusty-red-dark text-center mb-12 drop-shadow-sm">
+        <h2 className="text-3xl md:text-5xl font-bold text-[#7c3613] text-center mb-12 drop-shadow-sm">
           What People Are Saying About Jane
         </h2>
 

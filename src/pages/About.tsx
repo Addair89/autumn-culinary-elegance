@@ -14,11 +14,11 @@ const About = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative w-full bg-olive py-32 px-6">
+      <section className="relative w-full bg-olive pt-52 pb-32 px-6">
         <div className="max-w-7xl mx-auto md:flex justify-center gap-12 items-center">
           {/* Left column - Text */}
           <div className="flex-1 max-w-2xl">
-            <h2 className="text-4xl font-bold text-card mb-6 mt-6">
+            <h2 className="text-5xl font-bold text-card mb-6 mt-6">
               Meet Jane
             </h2>
             <p className="text-lg text-card leading-relaxed mb-6">
@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           {/* Right column - Single Image */}
-          <div className="flex-1 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+          <div className="flex-1 max-w-sm rounded-2xl overflow-hidden shadow-lg mt-32 md:mt-0">
             <img
               src={dish3}
               alt="Chef Jane portrait"

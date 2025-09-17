@@ -187,7 +187,7 @@ const Home = () => {
       {/* Dietary Accommodations Scrolling Strip */}
       <section className="py-12 bg-gradient-accent bg-opacity-80 overflow-hidden">
         <div className="container mx-auto px-6 mb-8">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-gold-light mb-4">
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-center text-gold-light mb-4">
             Dietary Accommodations
           </h2>
           <p className="text-center text-gold-light text-lg">
