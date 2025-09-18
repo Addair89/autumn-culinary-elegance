@@ -56,7 +56,7 @@ export default function TestimonialCarousel() {
         <Carousel
           plugins={[
             Autoplay({
-              delay: 9000,
+              delay: 12000,
             }),
           ]}
           className="w-full max-w-3xl mx-auto"
